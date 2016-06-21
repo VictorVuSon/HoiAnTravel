@@ -1,0 +1,296 @@
+/*   
+Theme Name: BLANK Theme
+Theme URI: http://digwp.com
+Description: This is just a BLANK starter WordPress Theme template -- WordPress v3.0.1
+Author: Chris Coyier
+Author URI: http://chriscoyier.net
+Version: 2
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: none;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+.page #page-wrap .container{
+	border-right:none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------------------*/
+/*style global*/
+/*style global*/
+/*style contact submit*/
+#post-19 form p {
+  margin-top: 5px;
+}
+#post-19 form textarea {
+  width: 306px;
+  height: 105px;
+  margin-bottom: 10px;
+  background-color: wheat;
+}
+#post-19 form input{
+	background-color: wheat;
+}
+.about-form {
+  font-size: 20px !important;
+  color: red !important;
+  margin-top: 10px;
+}
+.submit-form {
+  float: right;
+  margin-right: 120px;
+  margin-top: -36px !important;
+  width: 46px;
+  height: 21px;
+}
+.submit-form:hover {
+  border: 1px solid #8B2D2D;
+}
+.wpcf7-validation-errors{
+	display:none !important;
+}
+a{text-decoration:none;color:white;}
+.clear{clear:both;}
+a:hover{
+	color:red !important;
+}
+body{
+	background:url("/wp-content/themes/wp-hotel/images/background.png") repeat;
+	font-family:arial;
+}
+.left{float:left;}
+.right{float:right;}
+.page-wrap{}
+.container {
+  width: 990px;
+  margin: 0px auto;
+  padding: 0px 5px;
+}
+.flex-direction-nav {
+  height: 242px;
+  position: relative;
+  z-index: 999999999;
+  margin-top: -75px !important;
+}
+/* css main-nav */
+.main-nav{
+	width:368px;
+}
+
+/*--css logo--*/
+.logo {
+  position: relative;
+  z-index: 10000;
+  top: 107px;
+  left: 265px;
+  display: inline;
+}
+/*--slider--*/
+.page .slides img{
+	height:455px !important;
+}
+.slider {
+  width: 621px;
+}
+.main-page {
+  margin-top: -250px;
+}
+.main-nav {
+  background: url("/wp-content/themes/wp-hotel/images/background-c.png");
+  border-left: 1px solid #fffcfb;
+  padding: 10px 0px;
+  padding-bottom: 41px;
+}
+.nav-menu {
+  margin-top: 130px;
+  margin-left: 95px;
+}
+.nav-menu ul li:first-child {
+	border-top: 1px solid #dadada;
+}
+.nav-menu ul li {
+  padding: 6px 0px;
+  border-bottom: 1px solid #dadada;
+  width: 157px;
+  text-align: center;
+}
+.nav-menu ul li a{
+	  color: #801417;
+	  font-size:18px;
+}
+.nav-menu ul .home{
+	border-top:1px solid #dadada;
+}
+.active{
+	  color: red !important;
+}
+/*css reservation*/
+.resevation a {
+  display: block;
+  margin: 0px auto;
+  width: 120px;
+  margin-top: 110px;
+  border: 3px solid #f4b757;
+  color: #d12027;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 4px 13px;
+  background-color: #feecae;
+  padding-left: 8px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.contact{
+	  width: 208px;
+	  margin: 0px auto;
+	  margin-top: 20px;
+	  font-size: 15px;
+	  line-height: 25px;
+	  text-transform: uppercase;
+	  color: #801417;
+}
+.contact span {
+  color: #d02027;
+  font-size: 25px;
+}
+.face-tool {
+margin: 84px auto;
+width: 260px;
+margin-left: 65px;
+}
+.face-tool ul{}
+.face-tool ul li {
+  float: left;
+  margin-right: 20px;
+}
+.face-tool ul li img{}
+/*css slider*/
+.slide-content{
+  width: 618px;
+  position: relative;
+  left: -4px;
+}
+.flexslider .slides img {
+    height: 468px !important;
+}
+.flex-control-nav {
+}
+.slider{
+}
+.back-u {
+  position: absolute;
+  top: 610px;
+  height: 103px;
+}
+.back-u img {
+  width: 620px;
+  height: 102px;
+}
+.back-f img{
+  width: 620px;
+  margin-bottom: -3px;
+}
+/*css page*/
+.page .back-f img{
+	height: 141px;
+}
+.page .back-u img {
+  height: 102px;
+}
+.page .back-u {
+  top: 610px !important;
+}
+.page .post {
+  background: url("/wp-content/themes/wp-hotel/images/back_page.jpg");
+  height: 470px;
+  width: 620px;
+}
+.page .post .main-post {
+  height: 100%;
+  padding-left: 120px;
+  background: url("/wp-content/themes/wp-hotel/images/back-inf.png");
+}
+/*background for each page*/
+#post-13{
+	background: url("/wp-content/themes/wp-hotel/images/back_spa.jpg");
+}
+#post-15{
+	background: url("/wp-content/themes/wp-hotel/images/back_restaurant.jpg");
+}
+#post-17{
+	background: url("/wp-content/themes/wp-hotel/images/special-offer.jpg");
+}
+.page .post .entry {
+  width: 490px;
+  text-align: justify;
+  color: wheat;
+  line-height: 20px;
+  font-size: 14px;
+}
+.page .post h3{
+	color: wheat;
+	font-size: 20px;
+	padding-top: 10px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight:normal;
+}
+/*---inf-room---*/
+.inf-room {
+  width: 300px;
+  padding: 15px;
+  position: relative;
+  z-index: 200000;
+  top: 200px;
+  left: 277px;
+  background: url("/wp-content/themes/wp-hotel/images/back-inf.png");
+}
+.inf-room h3 {
+  color: #f4b757;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.inf-room p {
+  line-height: 20px;
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+}
